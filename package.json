@@ -1,0 +1,28 @@
+{
+  "name": "impossiblefish",
+  "version": "0.0.1",
+  "description": "Model development",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/numical/impossiblefish.git"
+  },
+  "keywords": [
+    "javascript",
+    "tooling"
+  ],
+  "author": "Mike Evans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/numical/impossiblefish/issues"
+  },
+  "homepage": "https://github.com/numical/impossiblefish#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9"
+  }
+}
