@@ -7,3 +7,13 @@
  font-size: 3em;
 }
 
+@font-face {
+ font-family: 'Indie Flower';
+ font-style: normal;
+ font-weight: 400;
+ src: local('Indie Flower'),
+      local('IndieFlower'),
+      url(./fonts/Indie-Flower.woff2) 
+      format('woff2');
+}
+

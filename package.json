@@ -4,7 +4,7 @@
   "description": "Model development",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "webpack": "webpack --progress --colors"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,9 @@
   "homepage": "https://github.com/numical/impossiblefish#readme",
   "devDependencies": {
     "css-loader": "^0.23.0",
+    "file-loader": "^0.8.5",
     "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
     "webpack": "^1.12.9"
   }
 }
