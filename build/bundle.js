@@ -83,7 +83,7 @@
 
 
 	// module
-	exports.push([module.id, ".title{\n color: rgb(249,205,27);\n margin: 0 auto;\n text-align: center;\n font-family: \"Indie Flower\", cursive;\n font-style: normal;\n font-size: 3em;\n}\n\n@font-face {\n   font-family: 'Indie Flower';\n     font-style: normal;\n       font-weight: 400;\n         src: local('Indie Flower'), local('IndieFlower'),\n         url(" + __webpack_require__(4) + ") \n         format('woff2');\n}\n\n", ""]);
+	exports.push([module.id, ".title {\n color: rgb(249,205,27);\n margin: 0 auto;\n text-align: center;\n font-family: \"Indie Flower\", cursive;\n font-style: normal;\n font-size: 3em;\n}\n\n.fishtank {\n border-style: solid;\n border-radius: 50px;\n background-color: LightBlue;\n}\n\n@font-face {\n font-family: 'Indie Flower';\n font-style: normal;\n font-weight: 400;\n src: local('Indie Flower'),\n      local('IndieFlower'),\n      url(" + __webpack_require__(4) + ") \n      format('woff2');\n}\n\n", ""]);
 
 	// exports
 

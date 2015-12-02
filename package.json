@@ -4,7 +4,8 @@
   "description": "Model development",
   "main": "index.js",
   "scripts": {
-    "webpack": "webpack --progress --colors"
+    "webpack": "webpack --progress --colors",
+    "start" : "webpack-dev-server --inline --progress --colors --content-base build"
   },
   "repository": {
     "type": "git",
