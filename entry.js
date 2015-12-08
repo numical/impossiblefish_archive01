@@ -14,7 +14,7 @@ window.onload = function(){
 
   // assumes borders defined as 'Npx'
   function introspectBorders( element ) {
-   var style = window.getComputedStyle( element ), borders = {};
+   let style = window.getComputedStyle( element ), borders = {};
    borders.top = parsePixelProperty( style.borderTopWidth );
    borders.bottom = parsePixelProperty( style.borderBottomWidth );
    borders.left = parsePixelProperty( style.borderLeftWidth );
@@ -34,19 +34,17 @@ window.onload = function(){
    // console.log( canvas.width + ", " + canvas.height );
   }
 
-  var canvasBorders = introspectBorders( canvas );             
+  let canvasBorders = introspectBorders( canvas );             
   window.addEventListener( 'resize', resize, false );
   window.addEventListener('orientationchange', resize, false );
   resize();
  }
 
  function initMenu( canvas ){
-  canvas.addEventListener( 'click', function(){
-   alert("clicked");
-  });
+  canvas.addEventListener( 'click', () => { alert("clicked") } );
  }
 
- var canvas = $('canvas'), 
+ let canvas = $('canvas'), 
      fishtank = $('#fishtank');
  initDynamicResize( fishtank, canvas );
  initMenu( canvas );
