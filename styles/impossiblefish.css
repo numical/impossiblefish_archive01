@@ -45,7 +45,7 @@ footer {
  font-weight: 400;
  src: local('Indie Flower'),
       local('IndieFlower'),
-      url(./fonts/Indie-Flower.woff2) 
+      url(../fonts/Indie-Flower.woff2) 
       format('woff2');
 }
 
