@@ -31,7 +31,6 @@ canvas {
  border-style: solid;
  border-width: 3px; /* must be in px for javascript in entry.js */
  border-radius: 50px;
- background-color: LightBlue;
 }
 
 footer {

@@ -1,6 +1,7 @@
 require( './styles/impossiblefish.css' )
 
-import * as autosizeBehaviour from './scripts/autosize.js';
+import * as autosizeTank from './scripts/autosizeTank.js';
+import * as fillTank from './scripts/fillTank.js';
 import * as menu from './scripts/menu.js'
 
 window.onload = function(){
@@ -10,7 +11,8 @@ window.onload = function(){
  }
 
  let canvas = $('canvas'); 
- autosizeBehaviour.init( canvas );
+ autosizeTank.init( canvas );
+ fillTank.init( canvas );
  menu.init( canvas );
 };
 
